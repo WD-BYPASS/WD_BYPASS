@@ -1,7 +1,14 @@
 const cdnVer = {
+    "thecrazy8." : "2",
+    "quagmire0001" : "2",
+    "bestrat8228" : "1",
+    "thelobo9002" : "1",
+    "dungeonmstr08_21768" : "1",
+    "jush7111" : "1",
+    "volpirix66." : "1"
 }
 /*
-"codename" : numerical verification level as string
+"codename" : numerical verification level as string, [next one]
                   0 - expired
                   1 - guest
                   2 - developer
