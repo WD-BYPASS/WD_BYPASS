@@ -32,3 +32,15 @@ a:hover {
   margin: 15px;
   background-color: rgb(175, 80, 80);
 }
+.blacklisted {
+  color: #f00
+}
+.devteam {
+  color: #0ff
+}
+.verified {
+  color: #0f0
+}
+.pending {
+  color: #ff0
+}
