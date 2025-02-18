@@ -45,7 +45,8 @@ a:hover {
   color: #ff0
 }
 .follyred {
-  color: #ff004f
+  color: #ff004f;
+  border: 5px solid white
 }
 html {
   color: #FEFEFE
