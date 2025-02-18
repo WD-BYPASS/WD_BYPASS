@@ -33,24 +33,19 @@ a:hover {
   background-color: rgb(175, 80, 80);
 }
 .blacklisted {
-  color: #f00;
-  text-shadow: 2px 2px 4px white;
+  color: #f00
 }
 .devteam {
-  color: #0ff;
-  text-shadow: 2px 2px 4px white;
+  color: #0ff
 }
 .verified {
-  color: #0f0;
-  text-shadow: 2px 2px 4px white;
+  color: #0f0
 }
 .pending {
-  color: #ff0;
-  text-shadow: 2px 2px 4px white;
+  color: #ff0
 }
 .follyred {
-  color: #ff004f;
-  text-shadow: 2px 2px 4px white;
+  color: #ff004f
 }
 html {
   color: #FEFEFE
