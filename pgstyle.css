@@ -1,6 +1,6 @@
 body {
         background-color: rgb(70,70,70);
-    html * {
+    html {
         color: #FEFEFE;
     }
 }
@@ -43,4 +43,7 @@ a:hover {
 }
 .pending {
   color: #ff0
+}
+html {
+  color: #FEFEFE
 }
