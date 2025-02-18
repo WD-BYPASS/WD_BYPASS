@@ -68,13 +68,15 @@ stat = getDataFF("sts")
 conf = getDataFF("cc")
 
 if (cdnVer[cdn]) { // user is registered
-    if (cdnVer[cdn] == stat) { // current status matches QR card status
+    if (cdnVer[cdn] == stat && stat != "0") { // current status matches QR card status and user isn't knowledgeably expired
         if (conf == calcCC()) { // QR card provided confirmation code matches calculated
             // go whereever
+        } else { // QR card provided confirmation code does not match calculated, but user isn't listed expired. fabricated code?
+            // begone to the asphodel plains of credit fraud
         }
     } else {
         if (cdnVer[cdn] == "0") {
-            // user's creds are expired
+            location.href = "/expired-credentials.html"
         } else {
             // idk. card says he's expired but he isnt? wouldnt trust it anyway
         }
