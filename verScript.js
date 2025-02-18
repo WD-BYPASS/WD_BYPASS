@@ -80,5 +80,5 @@ if (cdnVer[cdn]) { // user is registered
         }
     }
 } else {
-    // user has no registry
+    location.href = "/no-credentials.html"
 }
