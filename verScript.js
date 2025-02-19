@@ -20,7 +20,9 @@ var stat
 var conf
 
 function getDataFF(search) {
-    return location.href.prototype.sub(location.href.prototype.indexOf(search + "=") + (search.length + 1), location.href.prototype.indexOf("&") - 1)
+    let callS
+    try {callS = location.href.prototype.sub(location.href.prototype.indexOf(search + "=") + (search.length + 1), location.href.prototype.indexOf("&") - 1)} catch {callS = null}
+    return callS
 }
 
 function calcCC() {
@@ -58,8 +60,9 @@ function calcCC() {
 
 while (timeout < 100) {
     try {
-        cdn = getDataFF("cdn");break
-    } catch {
+        cdn = getDataFF("cdn");
+        if (cdn) {break}
+    } finally {
         timeout += 1;
     }
 }
