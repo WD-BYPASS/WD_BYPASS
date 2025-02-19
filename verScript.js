@@ -73,17 +73,17 @@ conf = getDataFF("cc")
 if (cdnVer[cdn]) { // user is registered
     if (cdnVer[cdn] == stat && stat != "0") { // current status matches QR card status and user isn't knowledgeably expired
         if (conf == calcCC()) { // QR card provided confirmation code matches calculated
-            location.href = "/patch-download.html"
+            location.href = "patch-download.html"
         } else { // QR card provided confirmation code does not match calculated, but user isn't listed as expired. fabricated code?
             location.href = "error.html" // change this to a 'bad credentials' page
         }
     } else {
         if (cdnVer[cdn] == "0") {
-            location.href = "/expired-credentials.html"
+            location.href = "expired-credentials.html"
         } else {
             location.href = "error.html"
         }
     }
 } else {
-    location.href = "/no-credentials.html"
+    location.href = "no-credentials.html"
 }
