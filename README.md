@@ -6,7 +6,7 @@ It is against your best intrests to try to bypass security, as that is very unki
 ## NDA:
 *1:* I will not share any information about the WD_PATCH ecosystem, or any related information
 
-*2:* I agree that if this, the rules, or any other restrictions are violated, the development team has full permission to kick me out of the program, and this NDA still applies.
+*2:* I agree that if this, the rules, or any other restrictions are violated, the development team has full permission to kick me out of the program, and this NDA still applies
 
 *3:* I realize that the patches could cause security risks or device damage if misused, and such misuse and any resulting events would be completely my fault
 
