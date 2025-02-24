@@ -19,4 +19,4 @@ It is against your best intrests to try to bypass security, as that is very unki
 *3:* this is not all encompassing, and more will be added when needed
 
 ##
-The I, me and my in the NDA and TOS refer to verified users.  **IF YOU ARE VERIFIED, YOU AUTOMATICALLY SIGN THESE**
+The I, me, and my in the NDA and TOS refer to verified users.  **IF YOU ARE VERIFIED, YOU AUTOMATICALLY SIGN THESE**
