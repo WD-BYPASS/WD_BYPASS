@@ -16,7 +16,7 @@ It is against your best interests to try to bypass security, as that is very unk
 
 *2:* I am responsible for any damages done to my device via the patches
 
-*3:* this is not all-encompassing, and more will be added when needed
+*3:* I realize that the TOS is not all-encompassing, and more will be added when needed
 
 ##
 The I, me, and my in the NDA and TOS refer to verified users.  **IF YOU ARE VERIFIED, YOU AUTOMATICALLY SIGN THESE**
