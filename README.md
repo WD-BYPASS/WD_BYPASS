@@ -20,3 +20,6 @@ It is against your best interests to try to bypass security, as that is very unk
 
 ##
 The I, me, and my in the NDA and TOS refer to verified users.  **IF YOU ARE VERIFIED, YOU AUTOMATICALLY SIGN THESE**
+
+## CONTACT THE DEVS:
+The devs can be contacted at the following email: WDBYPASSdevteam@gmail.com.  Only use this if discussions or issues doesn't work to reach us, or if it is private/urgent.
