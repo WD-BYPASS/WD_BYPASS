@@ -3,6 +3,9 @@ Please do not copy or download this code.
 
 It is against your best interests to try to bypass security, as that is very unkind and extremely unwise, as we will deal with that as we see fit.  THIS MAY INCLUDE BANS, AND IF YOU ARE BANNED, YOU STILL HAVE TO FOLLOW NDA.
 
+In order to decrypt the file, use the decryption keys on the back of your card, and decrypt the files at https://www.devglan.com/online-tools/aes-encryption-decryption
+
+
 ## NDA:
 *1:* I will not share any information about the WD_PATCH ecosystem, or any related information
 
@@ -20,6 +23,7 @@ It is against your best interests to try to bypass security, as that is very unk
 
 ##
 The I, me, and my in the NDA and TOS refer to verified users.  **IF YOU ARE VERIFIED, YOU AUTOMATICALLY SIGN THESE**
+
 
 ## CONTACT THE DEVS:
 The devs can be contacted at the following email: WDBYPASSdevteam@gmail.com.  Only use this if discussions or issues don't work to reach us, or if it is private/urgent.
