@@ -1,14 +1,11 @@
-body {
-    color-scheme: light dark;
+html {
+    --text-color-normal: #0a244d;
+    --text-color-light: #8cabd9;
   }
-
-body {
-    background-color: Canvas;
-    color: CanvasText;
-    color-scheme: light dark;
-  }
-
-body {
-    background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
-    color: color-mix(in srgb, CanvasText, Canvas 15%);
+  
+  html[data-theme='dark'] {
+    --text-color-normal: hsl(210, 10%, 62%);
+    --text-color-light: hsl(210, 15%, 35%);
+    --text-color-richer: hsl(210, 50%, 72%);
+    --text-color-highlight: hsl(25, 70%, 45%);
   }
