@@ -1,0 +1,14 @@
+body {
+    color-scheme: light dark;
+  }
+
+body {
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
+  }
+
+body {
+    background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
+    color: color-mix(in srgb, CanvasText, Canvas 15%);
+  }
