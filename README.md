@@ -1,9 +1,9 @@
-# Website/chat for WD_BYPASS
+# Website/chat for WD_BYPASS #
 Please do not copy or download this code.
 
 It is against your best interests to try to bypass security, as that is very unkind and extremely unwise, as we will deal with that as we see fit.  THIS MAY INCLUDE BANS, AND IF YOU ARE BANNED, YOU STILL HAVE TO FOLLOW NDA.
 
-In order to decrypt the file, use the decryption keys on the back of your card, and decrypt the files at https://www.devglan.com/online-tools/aes-encryption-decryption
+In order to decrypt the file, use the decryption keys on the back of your card, (if you are a verified member) and decrypt the files at https://www.devglan.com/online-tools/aes-encryption-decryption.   **ONLY VERIFIED MEMBERS HAVE ACCESS TO THE DECRYPTION KEY, AND YOU ARE NOT TO ASK ANYONE FOR ACCESS IF YOU AREN'T VERIFIED.**
 
 
 ## NDA:
