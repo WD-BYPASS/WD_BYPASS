@@ -22,7 +22,7 @@ In order to decrypt the file, use the decryption keys on the back of your card, 
 *3:* I realize that the TOS is not all-encompassing, and more will be added when needed
 
 ##
-The I, me, and my in the NDA and TOS refer to verified users.  **IF YOU ARE VERIFIED, YOU AUTOMATICALLY SIGN THESE**
+The I, me, and my in the NDA and TOS refer to anybody who uses the patches, or any other WD_Bypass products.  **IF YOU USE ANY WD_BYPASS PRODUCT, YOU AUTOMATICALLY AGREE TO THESE**
 
 
 ## CONTACT THE DEVS:
