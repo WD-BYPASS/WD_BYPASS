@@ -6,6 +6,8 @@ title: Download
 
 Click the link below to download the toolkit:
 
-- [Download WD_Toolkit.exe](https://github.com/WD-BYPASS/WD_BYPASS/releases)
+- [Download WD_Toolkit.exe](https://github.com/WD-BYPASS/WD_BYPASS/releases/latest/WD_Toolkit.exe)
+- [Download WD_Toolkit-nightly.exe](https://github.com/WD-BYPASS/WD_BYPASS/releases/latest/WD_Toolkit-nightly.exe)
+- [Latest GitHub Release](https://github.com/WD-BYPASS/WD_BYPASS/releases/latest)
 
 [Back to Home](/)
