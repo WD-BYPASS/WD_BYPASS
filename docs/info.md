@@ -2,6 +2,8 @@
 title: Info
 ---
 
+[[TOC]]
+
 # Info
 
 ## Omnipotence, Crucifix, and the WD_Bypass patch ecosystem
