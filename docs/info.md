@@ -8,7 +8,7 @@ title: Info
 
 ### Omnipotence
 
-Omnipotence is the general use Python based patch. It will be integrated into the main WD_Toolkit once more products are made.
+Omnipotence is the general use Python based patch. It was integrated into the main WD_Toolkit once the main toolkit was made.
 
 ```py{11}
 import os
