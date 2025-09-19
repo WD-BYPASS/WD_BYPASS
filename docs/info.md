@@ -10,9 +10,35 @@ title: Info
 
 Omnipotence is the general use Python based patch. It will be integrated into the main WD_Toolkit once more products are made.
 
+```py
+import os
+import subprocess
+
+# Prompt the user to input the application name
+appname = input("Choose the App you'd like to run (must be in same folder as Omnipotence.py)")
+
+# Get the absolute path of the application
+app_path = os.path.join(os.path.dirname(__file__), appname + ".exe")
+
+# Construct the command to run the application // [!code focus  2]
+command = f'cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "{app_path}""' 
+
+# Print the command for debugging
+print(f"Executing command: {command}")
+
+# Execute the command using subprocess.Popen
+with subprocess.Popen(command, shell=True) as p:
+    # Wait for the process to complete
+    p.wait()
+```
+
 ### Crucifix
 
 Crucifix is the batch file/terminal command used in Omnipotence, but standalone. It has no plans of distribution, but that may change.
+
+```batch
+cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "applicationfilenamehere.exe"
+```
 
 ### Ecosystem
 
