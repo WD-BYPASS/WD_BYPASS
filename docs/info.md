@@ -23,7 +23,7 @@ appname = input("Choose the App you'd like to run (must be in same folder as Omn
 app_path = os.path.join(os.path.dirname(__file__), appname + ".exe")
 
 # Construct the command to run the application 
-command = f'cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "{app_path}""' // [!code focus]
+command = f'cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "{app_path}""' //[!code focus]
 
 # Print the command for debugging
 print(f"Executing command: {command}")
