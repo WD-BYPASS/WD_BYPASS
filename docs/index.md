@@ -20,12 +20,12 @@ hero:
 
 # Feature grid
 features:
-  - title: Simple Hosting
-    details: Static hosting for website files and application downloads.
+  - title: Useful Features
+    details: Awesome features that make life easier.
   - title: Fast Docs
     details: VitePress-powered documentation with instant dev server and static output.
-  - title: Easy to Maintain
-    details: Edit markdown, commit, and deploy with a simple build step.
+  - title: Easy Install
+    details: Easy to install, just download the EXE.
 ---
 
 ## Quick Links
