@@ -10,6 +10,16 @@ Use the [releases](https://github.com/WD-BYPASS/WD_BYPASS/releases) tab on GitHu
 
 ## Usage
 
-Full usage guide will be implemented once the app is bugfixed.
+### OMNIPOTENCE:
+
+Omnipotence is used to run apps better.  It may have some secret functionality...
+
+### Website:
+
+Links here.
+
+### System Management Utilities:
+
+Change settings, view files, and view tasks!
 
 [Back to Home](/)
