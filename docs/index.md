@@ -37,3 +37,25 @@ features:
 
 ## CONTACT THE DEVS:
 The devs can be contacted at the following email: WDBYPASSdevteam@gmail.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/187664439?v=4',
+    name: 'TheCrazy8',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/TheCrazy8' }
+    ]
+  },
+  ...
+]
+</script>
+
+# Our Team
+
+Say hello to our awesome team.
+
+<VPTeamMembers size="small" :members />
