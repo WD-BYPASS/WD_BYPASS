@@ -11,12 +11,12 @@ export default {
         nav: [
         ],
         sidebar: [
-            text: 'Pages'
+            text: 'Pages',
             items: [
-            {text: 'Download', link: '/download'},
-            {text: 'Guide', link: '/guide'},
-            {text: 'Info', link: '/info'},
-            {text: 'Rules', link: '/rules'},
+            { text: 'Download', link: '/download' },
+            { text: 'Guide', link: '/guide' },
+            { text: 'Info', link: '/info' },
+            { text: 'Rules', link: '/rules' }
             ]
         ],
 
