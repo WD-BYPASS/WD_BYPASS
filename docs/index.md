@@ -30,7 +30,7 @@ features:
 
 ## Quick Links
 
-- Guide → [/guide](/guide)
-- Info → [/info](/info)
-- Rules → [/rules](/rules)
-- Download → [/download](/download)
+- Guide → [guide](/guide)
+- Info → [info](/info)
+- Rules → [rules](/rules)
+- Download → [download](/download)
