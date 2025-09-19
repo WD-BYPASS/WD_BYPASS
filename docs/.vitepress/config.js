@@ -1,7 +1,7 @@
 export default {
     title: "WD_Bypass Website",
     description: "The website for WD_Bypass.",
-    base: "/WD_Bypass-Website/",
+    base: "/WD_BYPASS/",
     themeConfig: {
         siteTitle: "WD_Bypass Website",
         footer: {
