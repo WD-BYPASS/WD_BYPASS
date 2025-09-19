@@ -46,6 +46,8 @@ cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "applicationfilenameher
 
 These are beta patches used for specific exe files. They weren't optimal or useful at all.
 
+::: warning ⚠️ Deprecation Warning ⚠️
+The Patches Ecosystem is deprecated now that a multi use file exists.
 ## [KCSgate Combat Kit](https://wd-bypass.github.io/KCSgate-Combat-Data/)
 
 The KCSgate Combat Kit is a work in progress product that may be used to maliciously comply to the device policy, that may pertain to distribution of devices such as roatry phones, gramophones, etc. (adapted from info.html)
