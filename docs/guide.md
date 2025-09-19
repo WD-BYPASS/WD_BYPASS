@@ -8,7 +8,7 @@ title: Guide
 
 ## Install
 
-Use the [releases](https://github.com/WD-BYPASS/WD_BYPASS/releases) tab on GitHub or use the download in the website (WIP).
+Use the [releases](https://github.com/WD-BYPASS/WD_BYPASS/releases) tab on GitHub or use the [download in the website](/download).
 
 ## Usage
 
