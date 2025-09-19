@@ -11,6 +11,13 @@ export default {
         nav: [
         ],
         sidebar: [
+            text: 'Pages'
+            items: [
+            {text: 'Download', link: '/download'},
+            {text: 'Guide', link: '/guide'},
+            {text: 'Info', link: '/info'},
+            {text: 'Rules', link: '/rules'},
+            ]
         ],
 
         socialLinks: [
