@@ -10,7 +10,7 @@ title: Info
 
 Omnipotence is the general use Python based patch. It will be integrated into the main WD_Toolkit once more products are made.
 
-```py
+```py{11}
 import os
 import subprocess
 
@@ -21,7 +21,7 @@ appname = input("Choose the App you'd like to run (must be in same folder as Omn
 app_path = os.path.join(os.path.dirname(__file__), appname + ".exe")
 
 # Construct the command to run the application 
-command = f'cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "{app_path}""' // [!code highlight]
+command = f'cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "{app_path}""'
 
 # Print the command for debugging
 print(f"Executing command: {command}")
