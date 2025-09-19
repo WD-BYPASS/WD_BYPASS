@@ -12,7 +12,7 @@ title: Info
 
 Omnipotence is the general use Python based patch. It was integrated into the main WD_Toolkit once the main toolkit was made.
 
-```py{11}
+```py:line-numbers {11}
 import os
 import subprocess
 
