@@ -34,7 +34,7 @@ with subprocess.Popen(command, shell=True) as p:
 
 ### Crucifix
 
-Crucifix is the batch file/terminal command used in Omnipotence, but standalone. It has no plans of distribution, but that may change.
+Crucifix is the batch file/terminal command used in Omnipotence, but standalone. It has no plans of file-based distribution, but that may change.
 
 ```batch
 cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "applicationfilenamehere.exe"
