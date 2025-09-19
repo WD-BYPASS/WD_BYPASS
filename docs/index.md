@@ -34,3 +34,6 @@ features:
 - Info → [info](/info)
 - Rules → [rules](/rules)
 - Download → [download](/download)
+
+## CONTACT THE DEVS:
+The devs can be contacted at the following email: [WDBYPASSdevteam@gmail.com](WDBYPASSdevteam@gmail.com).  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
