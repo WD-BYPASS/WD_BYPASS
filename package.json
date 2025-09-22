@@ -8,7 +8,7 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "type": "module"
+  "type": "module",
   "author": "WD_Bypass",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
