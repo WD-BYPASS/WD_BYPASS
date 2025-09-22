@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'vitepress';
+
+export default defineConfig({
     title: "WD_Bypass Website",
     description: "The website for WD_Bypass.",
     base: "/WD_BYPASS/",
@@ -17,10 +19,10 @@ export default {
         sidebar: {
             text: 'Pages',
             items: [
-            { text: 'Download', link: '/download' },
-            { text: 'Guide', link: '/guide' },
-            { text: 'Info', link: '/info' },
-            { text: 'Rules', link: '/rules' }
+                { text: 'Download', link: '/download' },
+                { text: 'Guide', link: '/guide' },
+                { text: 'Info', link: '/info' },
+                { text: 'Rules', link: '/rules' }
             ]
         },
 
@@ -29,17 +31,17 @@ export default {
         ],
 
         lastUpdated: {
-              text: 'Updated at',
-              formatOptions: {
-                    dateStyle: 'full',
-                    timeStyle: 'medium'
-              }
+            text: 'Updated at',
+            formatOptions: {
+                dateStyle: 'full',
+                timeStyle: 'medium'
+            }
         },
         search: {
-              provider: 'local'
+            provider: 'local'
         },
     },
     head: [
         ['link', { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }]
     ],
-};
+});
