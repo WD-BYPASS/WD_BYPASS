@@ -2,7 +2,7 @@
   "name": "WD_Bypass Website",
   "version": "1.0.0",
   "description": "The website for WD_Bypass",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
