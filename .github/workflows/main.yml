@@ -42,6 +42,7 @@ jobs:
         run: |
           cd docs
           npm install vitepress
+          npm install @nolebase/vitepress-plugin-inline-link-preview -D
           npx vitepress build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
