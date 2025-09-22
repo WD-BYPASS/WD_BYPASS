@@ -9,6 +9,10 @@ export default {
             copyright: "Copyright © 2025-present WD_Bypass",
         },
         nav: [
+            { text: 'Download', link: '/download' },
+            { text: 'Guide', link: '/guide' },
+            { text: 'Info', link: '/info' },
+            { text: 'Rules', link: '/rules' }
         ],
         sidebar: {
             text: 'Pages',
