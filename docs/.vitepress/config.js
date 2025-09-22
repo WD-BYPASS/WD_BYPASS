@@ -10,7 +10,7 @@ export default {
         },
         nav: [
         ],
-        sidebar: [
+        sidebar: {
             text: 'Pages',
             items: [
             { text: 'Download', link: '/download' },
@@ -18,7 +18,7 @@ export default {
             { text: 'Info', link: '/info' },
             { text: 'Rules', link: '/rules' }
             ]
-        ],
+        },
 
         socialLinks: [
             { icon: "github", link: "https://github.com/WD-BYPASS" },
