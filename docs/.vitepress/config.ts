@@ -5,18 +5,6 @@ import {
 } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 export default defineConfig({
-    "compilerOptions": {
-      "module": "ESNext", 
-      "moduleResolution": "Bundler", 
-    },
-    "include": [
-      "**/.vitepress/**/*.ts",
-      "**/.vitepress/**/*.mts",
-      "**/.vitepress/**/*.vue"
-    ],
-    "exclude": [
-      "node_modules"
-    ],
     vite: { 
     optimizeDeps: { 
       exclude: [ 
