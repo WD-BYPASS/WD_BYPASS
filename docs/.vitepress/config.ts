@@ -17,6 +17,19 @@ export default defineConfig({
     "exclude": [
       "node_modules"
     ],
+    vite: { 
+    optimizeDeps: { 
+      exclude: [ 
+        '@nolebase/vitepress-plugin-inline-link-preview/client', 
+      ], 
+    }, 
+    ssr: { 
+      noExternal: [ 
+        // If there are other packages that need to be processed by Vite, you can add them here.
+        '@nolebase/vitepress-plugin-inline-link-preview', 
+      ], 
+    }, 
+  }, 
     title: "WD_Bypass Website",
     description: "The website for WD_Bypass.",
     base: "/WD_BYPASS/",
