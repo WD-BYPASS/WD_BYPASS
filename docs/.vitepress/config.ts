@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress';
 
+import { 
+  InlineLinkPreviewElementTransform 
+} from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
+
 export default defineConfig({
     title: "WD_Bypass Website",
     description: "The website for WD_Bypass.",
@@ -40,6 +44,12 @@ export default defineConfig({
         search: {
             provider: 'local'
         },
+    },
+    markdown: { 
+        config(md) { 
+          // other markdown-it configurations...
+          md.use(InlineLinkPreviewElementTransform) 
+        } 
     },
     head: [
         ['link', { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }]
