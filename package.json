@@ -2,13 +2,12 @@
   "name": "WD_Bypass Website",
   "version": "1.0.0",
   "description": "The website for WD_Bypass",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "type": "module",
   "author": "WD_Bypass",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
