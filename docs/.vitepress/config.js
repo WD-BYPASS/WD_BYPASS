@@ -28,6 +28,7 @@ export default {
 
         socialLinks: [
             { icon: "github", link: "https://github.com/WD-BYPASS" },
+            { icon: "discord", link: "https://discord.gg/b38E9wyuYp" }
         ],
 
         lastUpdated: {
