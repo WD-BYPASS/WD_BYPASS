@@ -12,7 +12,8 @@ export default {
             { text: 'Download', link: '/download' },
             { text: 'Guide', link: '/guide' },
             { text: 'Info', link: '/info' },
-            { text: 'Rules', link: '/rules' }
+            { text: 'Rules', link: '/rules' },
+            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
         ],
         sidebar: {
             text: 'Pages',
@@ -20,7 +21,8 @@ export default {
             { text: 'Download', link: '/download' },
             { text: 'Guide', link: '/guide' },
             { text: 'Info', link: '/info' },
-            { text: 'Rules', link: '/rules' }
+            { text: 'Rules', link: '/rules' },
+            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
             ]
         },
 
