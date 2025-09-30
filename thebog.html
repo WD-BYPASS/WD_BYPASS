@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>The Bog</title>
+    <style>
+        :root {
+            --bg:#1f1f1f;
+            --bg-alt:#2b2a2a;
+            --bg-soft:#343434;
+            --border:#3f3f3f;
+            --text:#f5f5f5;
+            --text-dim:#c2c2c2;
+            --accent:#3e8bff;
+            --accent-accent:#62a4ff;
+            --danger:#ff4d4d;
+            --radius:10px;
+            --shadow:0 2px 6px rgba(0,0,0,.35);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Arial, sans-serif;
+        }
+        @media (prefers-color-scheme: light) {
+            :root { --bg:#ffffff; --bg-alt:#f6f6f6; --bg-soft:#ececec; --text:#222; --text-dim:#555; --border:#d0d0d0; }
+        }
+        * { box-sizing: border-box; }
+        body { margin:0; background:var(--bg); color:var(--text); -webkit-font-smoothing: antialiased; }
+        header { padding:2.2rem 1.2rem 1.2rem; background:linear-gradient(145deg,var(--bg-alt),var(--bg-soft)); border-bottom:1px solid var(--border); }
+        h1 { margin:0 0 .35rem; font-size:clamp(1.9rem,3vw,2.4rem); letter-spacing:.5px; }
+        header p.tagline { margin:.15rem 0 0; font-size:.95rem; color:var(--text-dim); }
+        main { max-width:960px; margin:0 auto; padding:1.4rem 1.25rem 3rem; }
+        nav.toc { background:var(--bg-alt); padding:.9rem 1rem 1rem; border:1px solid var(--border); border-radius:var(--radius); margin:0 0 1.4rem; box-shadow:var(--shadow); }
+        nav.toc h2 { font-size:1rem; margin:0 0 .6rem; text-transform:uppercase; letter-spacing:1px; font-weight:600; color:var(--text-dim); }
+        nav.toc ul { list-style:none; margin:0; padding:0; columns:2; gap:1.25rem; }
+        nav.toc li { margin:0 0 .45rem; break-inside:avoid; }
+        nav.toc a { color:var(--accent); text-decoration:none; font-size:.92rem; position:relative; }
+        nav.toc a:hover, nav.toc a:focus { color:var(--accent-accent); text-decoration:underline; }
+        article { background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--radius); padding:1.7rem 1.6rem 1.9rem; margin:0 0 1.75rem; box-shadow:var(--shadow); }
+        article header.meta { display:flex; flex-wrap:wrap; gap:1rem; font-size:.74rem; letter-spacing:.7px; text-transform:uppercase; color:var(--text-dim); margin:-.3rem 0 1.2rem; }
+        article h2 { margin:.2rem 0 1rem; font-size:1.55rem; }
+        p { line-height:1.62; margin:.9rem 0; }
+        a { color:var(--accent); text-decoration:none; }
+        a:hover, a:focus { color:var(--accent-accent); text-decoration:underline; }
+        code { background:var(--bg-soft); padding:.15rem .45rem; border-radius:6px; font-size:.85rem; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+        pre { background:var(--bg-soft); padding:1rem 1.1rem; border-radius:var(--radius); overflow:auto; line-height:1.4; font-size:.88rem; border:1px solid var(--border); }
+        pre code { background:transparent; padding:0; }
+        blockquote { margin:1.4rem 0; padding:.75rem 1rem .8rem 1rem; border-left:4px solid var(--accent); background:linear-gradient(90deg,var(--bg-soft),rgba(255,255,255,0)); border-radius:0 var(--radius) var(--radius) 0; color:var(--text-dim); font-style:italic; }
+        .badge { display:inline-block; background:var(--accent); color:#fff; font-size:.62rem; padding:.28rem .55rem .32rem; border-radius:999px; letter-spacing:.6px; vertical-align:middle; margin-right:.35rem; font-weight:600; }
+        footer.site { text-align:center; padding:2.5rem 1rem 3rem; font-size:.75rem; color:var(--text-dim); }
+        .cards { display:grid; gap:1.4rem; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); margin:2.2rem 0 1.6rem; }
+        .card { background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--radius); padding:1rem 1rem 1.15rem; position:relative; display:flex; flex-direction:column; gap:.55rem; transition:border-color .18s, transform .18s; }
+        .card:hover { border-color:var(--accent); transform:translateY(-3px); }
+        .card h3 { margin:.1rem 0 .2rem; font-size:1.05rem; }
+        .card p { margin:0; font-size:.82rem; line-height:1.4; color:var(--text-dim); }
+        .card a.more { margin-top:.35rem; font-size:.72rem; text-transform:uppercase; letter-spacing:1px; font-weight:600; opacity:.85; }
+        .label-row { display:flex; flex-wrap:wrap; gap:.4rem .55rem; margin:.2rem 0 .1rem; }
+        .pill { background:var(--bg-soft); padding:.25rem .6rem .32rem; border-radius:999px; font-size:.62rem; letter-spacing:.6px; color:var(--text-dim); }
+        hr { border:none; border-top:1px solid var(--border); margin:2.2rem 0 2.15rem; }
+        .muted { color:var(--text-dim); }
+        .sr-only { position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
+        @media (max-width:640px) {
+            nav.toc ul { columns:1; }
+            article { padding:1.25rem 1.05rem 1.4rem; }
+            .cards { grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Bog</h1>
+        <p class="tagline">A placeholder knowledge pit. Replace this with live content later.</p>
+    </header>
+    <main>
+        <nav class="toc" aria-labelledby="toc-heading">
+            <h2 id="toc-heading">Contents</h2>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#firstarticle">First Artickle!!!1111!!!!!!!!1!1!!!!!!1</a></li>
+                <li><a href="#cards">"Feature" Cards</a></li>
+                <li><a href="#code">Code Block</a></li>
+                <li><a href="#blockquote">Quote</a></li>
+            </ul>
+        </nav>
+
+        <article id="intro">
+            <header class="meta">
+                <span><span class="badge">NEW</span> DRAFT AREA</span>
+                <span>REV 0.1</span>
+                <span>STATUS: PLANNING</span>
+            </header>
+            <h2>Welcome Wanderer</h2>
+            <p>This placeholder page is delivered remotely from the GitHub repository. You can't edit <code>thebog.html</code> in the repo and the application will pull the latest version that the devs make without needing to rebuild the executable.</p>
+            <p>This place is gonna be stupid and satirical.  Dont take it seriously please.</p>
+            <blockquote>
+                “Information sinks; curation turns a bog into a library.”
+            </blockquote>
+            <p class="muted">Tip: Keep sections concise. Large walls of text reduce retention and scan speed.</p>
+        </article>
+
+        <article id="firstarticle">
+            <header class="meta">
+                <span><span class="badge">DOC</span> TEMPLATE</span>
+                <span>ETA: N/A</span>
+                <span>OWNER: UNASSIGNED</span>
+            </header>
+            <h2>First Artickle!!!!!1!11!!!1!!!!</h2>
+            <p>yippeee!!!!!!!!!!!.</p>
+            <h3>WOW thats crazy.  anyways, did you know that the floor is floor?</h3>
+            <p>Now you do, i guess.</p>
+            <h3>Action</h3>
+            <p>Dont ask why, its just funny.</p>
+            <h3>Outcome</h3>
+            <p>a bit of entertainment because its funny.</p>
+        </article>
+
+        <section id="cards">
+            <h2>Feature / Idea Cards</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="label-row">
+                        <span class="pill">PLANNED</span>
+                        <span class="pill">UI</span>
+                    </div>
+                        <h3>Live Edit Mode</h3>
+                        <p>The devs will add stupid articles lol.</p>
+                        <a class="more" href="#">Details →</a>
+                </div>
+                <div class="card">
+                    <div class="label-row">
+                        <span class="pill">IDEA</span>
+                        <span class="pill">SYNC</span>
+                    </div>
+                        <h3>Offline Cache</h3>
+                        <p>Store the last successful fetch so content remains available offline.  Or not lol</p>
+                        <a class="more" href="#">Details →</a>
+                </div>
+                <div class="card">
+                    <div class="label-row">
+                        <span class="pill">BACKLOG</span>
+                        <span class="pill">SECURITY</span>
+                    </div>
+                        <h3>Signed Content</h3>
+                        <p>Verify remote HTML with a detached signature to ensure integrity, but why would we do that???</p>
+                        <a class="more" href="#">Details →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="code">
+            <h2>Code Block Example</h2>
+            <pre><code>print("The bog goes crasy, am i right? >:]")
+def example():
+    return "egg"
+
+print(example())
+</code></pre>
+        </section>
+
+        <section id="blockquote">
+            <h2>Quoted Section</h2>
+            <blockquote>
+                “Simplicity carried to an extreme becomes elegance.” – Jon Franklin
+            </blockquote>
+        </section>
+
+        <hr />
+        <p class="muted">Welcome to the bog.</p>
+    </main>
+    <footer class="site">&copy; <span id="year"></span> The Bog • Dynamic remote content placeholder.</footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
