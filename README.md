@@ -25,5 +25,5 @@ In order to decrypt the file, use the decryption keys on the back of your card, 
 The I, me, and my in the NDA and TOS refer to anybody who uses the patches, or any other WD_Bypass products.  **IF YOU USE ANY WD_BYPASS PRODUCT, YOU AUTOMATICALLY AGREE TO THESE**
 
 
-## CONTACT THE DEVS:
-The devs can be contacted at the following email: WDBYPASSdevteam@gmail.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
+## CONTACT SUPPORT:
+The support team can be contacted at the following email: support@wdbypass.publicvm.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
