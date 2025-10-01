@@ -38,4 +38,4 @@ features:
 
 ## CONTACT THE DEVS
 
-The devs can be contacted at the following email: WDBYPASSdevteam@gmail.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
+The devs can be contacted at the following email: support@wdbypass.publicvm.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
