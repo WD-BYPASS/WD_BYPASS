@@ -36,6 +36,6 @@ features:
 - Download → [download](/download)
 - KCSgate Combat Data → [kcsgatecombatdata](/kcsgatecombatdata)
 
-## CONTACT THE DEVS
+## CONTACT
 
-The devs can be contacted at the following email: support@wdbypass.publicvm.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
+The support team can be contacted at the following email: support@wdbypass.publicvm.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
