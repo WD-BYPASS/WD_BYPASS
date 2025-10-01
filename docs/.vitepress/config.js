@@ -29,7 +29,7 @@ export default {
         socialLinks: [
             { icon: "github", link: "https://github.com/WD-BYPASS" },
             { icon: "discord", link: "https://discord.gg/b38E9wyuYp" },
-            { icon: "gmail", link: "mailto:WDBYPASSdevteam@gmail.com"}
+            { icon: "gmail", link: "mailto:support@wdbypass.publicvm.com"}
         ],
 
         lastUpdated: {
