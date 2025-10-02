@@ -26,6 +26,8 @@ features:
     details: VitePress-powered documentation with instant dev server and static output.
   - title: Easy Install
     details: Easy to install, just download the EXE.
+  - title: It has a blog, too!
+    details: [The Bog](https://wd-bypass.github.io/thebog/)
 ---
 
 ## Quick Links
