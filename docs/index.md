@@ -36,6 +36,10 @@ features:
 - Download → [download](/download)
 - KCSgate Combat Data → [kcsgatecombatdata](/kcsgatecombatdata)
 
+## Blog
+
+We have a blog, [The Bog](https://wd-bypass.github.io/thebog/)
+
 ## CONTACT
 
 The support team can be contacted at the following email: support@wdbypass.publicvm.com.  Only use this if discussions, Discord, or issues don't work to reach us, or if it is private/urgent.
