@@ -29,7 +29,7 @@ This page lists all users, their roles, and current access standings.
 | Badge | Meaning                               | Conditions                             |
 | :----: | ------------------------------------ | -------------------------------------- |
 | 🌐     | Custom email                         | Have a custom dev email                |
-| ❇     | Original user                        | Be one of the first!                   |
+| ❇     | Original user                        | Be ~~one of~~ the first!               |
 | 🛡     | Moderation team                      | Reserved for moderators                |
 | 🎃     | Halloween event participant          | Trick or treat in the discord          |
 | 🔓     | Major product/feature contributor    | Contribute a major feature             |
