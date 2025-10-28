@@ -26,22 +26,35 @@ This page lists all users, their roles, and current access standings.
 
 ## Badgedex
 
-| Badge | Meaning                               | Conditions                              |
-| :----: | ------------------------------------ | --------------------------------------- |
-| 🌐     | Custom email                         | Have a custom dev email                 |
-| ❇     | Original user                        | Be ~~one of~~ the first users!          |
-| 💾     | Beta tester                          | Test private beta builds                |
-| 🛡     | Moderation team                      | Reserved for moderators                 |
-| 🎃     | Halloween event participant          | Trick or treat in the discord           |
-| 🔓     | Major product/feature contributor    | Contribute a major feature              |
-| 👾     | Major bugfixer                       | Fix a bug that plagues us devs          | 
-| 🐛     | Bug hunter                           | Find a bunch of issues and report them  |
-| ⚡     | Optimizer                            | Fix our buggy code                      |
-| ℹ️     | Communiity guide                     | Tell people how stuff works a bunch     |
-| 🎁     | Donater                              | Donate to the devs or boost the discord |
-| 🍪     | Cookie                               | A dev decided to give you a cookie      |
-| 💣     | Bomb                                 | Uh oh- throw this to someone else!      |
-| 🏁     | Winner                               | Win a challenge                         |
+| Badge | Meaning                               | Conditions                                     |
+| :----: | ------------------------------------ | ---------------------------------------------- |
+| 🌐     | Custom email                         | Have a custom dev email                        |
+| ❇     | Original user                        | Be ~~one of~~ the first users!                 |
+| 💾     | Beta tester                          | Test private beta builds                       |
+| 🛡     | Moderation team                      | Reserved for moderators                        |
+| 🎃     | Halloween event participant          | Trick or treat in the discord                  |
+| 🔓     | Major product/feature contributor    | Contribute a major feature                     |
+| 👾     | Major bugfixer                       | Fix a bug that plagues us devs                 | 
+| 🐛     | Bug hunter                           | Find a bunch of issues and report them         |
+| ⚡     | Optimizer                            | Fix our slow code                              |
+| ℹ️     | Communiity guide                     | Tell people how stuff works a bunch            |
+| 🎁     | Donater                              | Donate to the devs or boost the discord        |
+| 🍪     | Cookie                               | A dev decided to give you a cookie             |
+| 💣     | Bomb                                 | Uh oh- throw this to someone else!             |
+| 🏁     | Winner                               | Win a challenge                                |
+| 🔨     | Hammer wielder                       | "I'm Old"                                      |
+| ⚓     | Anchor                               | Share the same hyperfixation as a dev          |
+| 🌟     | Superstar                            | Make content about WD_Bypass or any product    |
+| 💌     | Fan                                  | Send fanmail (that we recieve and enjoy)       |
+| 💬     | Chronically online                   | Send 100,000,000 messages in the discord       |
+| 👑     | V.I.P.                               | It's a secret...                               |
+| 🪄     | Magician                             | Impress us with your code                      |
+| 🚿     | Touch grass                          | Play Fortnite or Clash or Brawl Stars          |
+| 🪿     | Silly goose                          | Ooh- a mystery...                              |
+| 🎱     | Lucky                                | Random chance!                                 |
+| 🎨     | Artist                               | Make fanart (but why, and of what, us?)        |
+| 🔰     | Noob                                 | Show immense lack of knowledge about WD_Bypass |
+| 💯     | Impressive                           | Tell (and prove) a cool true story about you   |
 
 ## Current Employees
 
@@ -49,7 +62,7 @@ This page lists all users, their roles, and current access standings.
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
 | TheCrazy8    | Administration   |    ♾     | 🌐, ❇, 🛡, 💾 | thecrazy8@wdbypass.publicvm.com              |   Founder            |
 | Quagmire0001 | Administration   |    ♾     | 🌐, ❇, 🛡, 💾 | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
-| BestRat8228  | Developer        |    ✅     | 🌐, ❇, 💾 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
+| BestRat8228  | Developer        |    ✅     | 🌐, ❇, 💾, 🚿 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
 | TheLobo9002  | Developer        |    ✅     | 🌐, ❇, 💾 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
 ## Inactive Employees
