@@ -26,15 +26,21 @@ This page lists all users, their roles, and current access standings.
 
 ## Badgedex
 
-| Badge | Meaning                               | Conditions                             |
-| :----: | ------------------------------------ | -------------------------------------- |
-| 🌐     | Custom email                         | Have a custom dev email                |
-| ❇     | Original user                        | Be ~~one of~~ the first!               |
-| 🛡     | Moderation team                      | Reserved for moderators                |
-| 🎃     | Halloween event participant          | Trick or treat in the discord          |
-| 🔓     | Major product/feature contributor    | Contribute a major feature             |
-| 👾     | Major bugfixer                       | Fix a bug that plagues us devs         |
-| 🐛     | Bug hunter                           | Find a bunch of issues and report them |
+| Badge | Meaning                               | Conditions                              |
+| :----: | ------------------------------------ | --------------------------------------- |
+| 🌐     | Custom email                         | Have a custom dev email                 |
+| ❇     | Original user                        | Be ~~one of~~ the first users!          |
+| 🛡     | Moderation team                      | Reserved for moderators                 |
+| 🎃     | Halloween event participant          | Trick or treat in the discord           |
+| 🔓     | Major product/feature contributor    | Contribute a major feature              |
+| 👾     | Major bugfixer                       | Fix a bug that plagues us devs          | 
+| 🐛     | Bug hunter                           | Find a bunch of issues and report them  |
+| ⚡     | Optimizer                            | Fix our buggy code                      |
+| ℹ️     | Communiity guide                     | Tell people how stuff works a bunch     |
+| 🎁     | Donater                              | Donate to the devs or boost the discord |
+| 🍪     | Cookie                               | A dev decided to give you a cookie      |
+| 💣     | Bomb                                 | Uh oh- throw this to someone else!      |
+| 🏁     | Winner                               | Win a challenge                         |
 
 ## Current Employees
 
@@ -42,15 +48,15 @@ This page lists all users, their roles, and current access standings.
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
 | TheCrazy8    | Administration   |    ♾     | 🌐, ❇, 🛡 | thecrazy8@wdbypass.publicvm.com              |   Founder            |
 | Quagmire0001 | Administration   |    ♾     | 🌐, ❇, 🛡 | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
-| BestRat8228  | No role            |    ✅     | 🌐 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
-| TheLobo9002  | No role            |    ✅     | 🌐 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
+| BestRat8228  | Developer        |    ✅     | 🌐, ❇ | bestrat8228@wdbypass.publicvm.com          |   N/A                |
+| TheLobo9002  | Developer        |    ✅     | 🌐, ❇ | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
 ## Inactive Employees
 
 | Name       | Role   | Standings | Notes                      |
 | ---------- | ------ | :-------: | -------------------------- |
-| Volpirix66 | No role|    ☑      | Inactive verified, access  |
-| Jush7111   | No role|    ☑      | Inactive verified, access  |
+| Volpirix66 | No role|    ☑, ❇      | Inactive verified, access  |
+| Jush7111   | No role|    ☑, ❇      | Inactive verified, access  |
 | Slime        | Concept Artist     |    🔲     | No contributions or interactions, has been labeled inactive |
 
 ## Past Employees
