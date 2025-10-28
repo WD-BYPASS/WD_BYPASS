@@ -10,6 +10,7 @@ This page lists all users, their roles, and current access standings.
 
 | Symbol | Meaning                              |
 | :----: | ------------------------------------ |
+| 🔥      | Banned                               |
 | ✖      | Blacklisted                          |
 | ❌      | Relationship terminated               |
 | ⭕      | Access pending                       |
