@@ -56,8 +56,8 @@ This page lists all users, their roles, and current access standings.
 
 | Name       | Role   | Standings | Notes                      |
 | ---------- | ------ | :-------: | -------------------------- |
-| Volpirix66 | No role|    ☑, ❇      | Inactive verified, access  |
-| Jush7111   | No role|    ☑, ❇      | Inactive verified, access  |
+| Volpirix66 | No role|    ☑      | Inactive verified, access  |
+| Jush7111   | No role|    ☑      | Inactive verified, access  |
 | Slime        | Concept Artist     |    🔲     | No contributions or interactions, has been labeled inactive |
 
 ## Past Employees
