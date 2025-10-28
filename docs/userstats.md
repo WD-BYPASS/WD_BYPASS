@@ -16,9 +16,9 @@ This page lists all users, their roles, and current access standings.
 | ⭕      | Access pending                       |
 | ⚠️      | Formerly verified, no access         |
 | ☢      | Formerly verified, retains access    |
-| ❎      | Access temporarily revoked           |
 | 🔲      | Inactive verified, no access         |
 | 🟩      | Verified, no access                  |
+| ❎      | Access temporarily revoked           |
 | ☑      | Inactive verified, access            |
 | ✅      | Verified, access                     |
 | 🔼      | Higher level access                  |
