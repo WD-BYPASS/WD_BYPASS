@@ -23,6 +23,7 @@ export default {
             { text: 'Guide', link: '/guide' },
             { text: 'Info', link: '/info' },
             { text: 'Rules', link: '/rules' },
+            { text: 'Userstats', link: '/userstats'},
             { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
             ]
         },
