@@ -34,6 +34,7 @@ features:
 - Info → [info](/info)
 - Rules → [rules](/rules)
 - Download → [download](/download)
+- Userstats → [userstats](/userstats)
 - KCSgate Combat Data → [kcsgatecombatdata](/kcsgatecombatdata)
 
 ## Blog
