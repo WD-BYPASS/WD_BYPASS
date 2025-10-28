@@ -19,6 +19,7 @@ This page lists all users, their roles, and current access standings.
 | ❎      | Access temporarily revoked           |
 | 🟩      | Verified, no access                  |
 | ☑      | Inactive verified, access            |
+| 🔲      | Inactive verified, no access         |
 | ✅      | Verified, access                     |
 | 🔼      | Higher level access                  |
 | ♾      | Admin level access                   |
@@ -29,7 +30,6 @@ This page lists all users, their roles, and current access standings.
 | ------------ | ------------------ | :------: | ----------------------------------------------------------------------------- |
 | TheCrazy8    | Administration   |    ♾     | thecrazy8@wdbypass.publicvm.com                                               |
 | Quagmire0001 | Administration   |    ♾     | quagmire0001@wdbypass.publicvm.com                                            |
-| Slime        | Concept Artist     |    🟩     | Contact not permitted due to preferred anonymity (known by TheCrazy8 in person) |
 | BestRat8228  | No role            |    ✅     | bestrat8228@wdbypass.publicvm.com                                             |
 | TheLobo9002  | No role            |    ✅     | thelobo9002@wdbypass.publicvm.com                                             |
 
@@ -39,6 +39,7 @@ This page lists all users, their roles, and current access standings.
 | ---------- | ------ | :-------: | -------------------------- |
 | Volpirix66 | No role|    ☑      | Inactive verified, access  |
 | Jush7111   | No role|    ☑      | Inactive verified, access  |
+| Slime        | Concept Artist     |    🔲     | No contributions or interactions, has been labeled inactive |
 
 ## Past
 
