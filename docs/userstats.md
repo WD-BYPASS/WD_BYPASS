@@ -1,7 +1,5 @@
 ---
 title: User Statuses
-description: Access levels and current standings for WD_BYPASS collaborators.
-outline: deep
 ---
 
 # User Statuses
