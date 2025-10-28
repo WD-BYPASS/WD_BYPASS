@@ -27,7 +27,7 @@ This page lists all users, their roles, and current access standings.
 ## Current
 
 | Name         | Role               | Standings | Email | Notes |
-| ------------ | ------------------ | :------: | ------------------------------------------- |--------------------------------------------------------------------- |
+| ------------ | ------------------ | :------: | ------------------------------------------- | ----------------------- |
 | TheCrazy8    | Administration   |    ♾     | thecrazy8@wdbypass.publicvm.com              | Founder |
 | Quagmire0001 | Administration   |    ♾     | quagmire0001@wdbypass.publicvm.com           | Member of Alpha Team (first test group) |
 | BestRat8228  | No role            |    ✅     | bestrat8228@wdbypass.publicvm.com          | N/A |
