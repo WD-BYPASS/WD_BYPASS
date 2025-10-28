@@ -45,7 +45,7 @@ This page lists all users, their roles, and current access standings.
 
 | Name                | Reason | Standings | Notes        |
 | ------------------- | --------------- | :-------: | ------------ |
-| dungeonmstr08_21768 | Dropped out     |    ⚠️     | No access    |
+| dungeonmstr08_21768 | Dropped out     |    ⚠️     | N/A    |
 
 ## Pending
 
