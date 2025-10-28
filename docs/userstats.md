@@ -42,7 +42,7 @@ This page lists all users, their roles, and current access standings.
 | 🍪     | Cookie                               | A dev decided to give you a cookie             |
 | 💣     | Bomb                                 | Uh oh- throw this to someone else!             |
 | 🏁     | Winner                               | Win a challenge                                |
-| 🔨     | Hammer wielder                       | "I'm Old"                                      |
+| 🔨     | Hammer wielder                       | Build a hardware device that uses a product    |
 | ⚓     | Anchor                               | Share the same hyperfixation as a dev          |
 | 🌟     | Superstar                            | Make content about WD_Bypass or any product    |
 | 💌     | Fan                                  | Send fanmail (that we recieve and enjoy)       |
