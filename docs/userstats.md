@@ -27,8 +27,8 @@ This page lists all users, their roles, and current access standings.
 
 | Name         | Role               | Standings | Email / Notes                                                                 |
 | ------------ | ------------------ | :------: | ----------------------------------------------------------------------------- |
-| TheCrazy8    | Devteam/Security   |    ♾     | thecrazy8@wdbypass.publicvm.com                                               |
-| Quagmire0001 | Devteam/Security   |    ♾     | quagmire0001@wdbypass.publicvm.com                                            |
+| TheCrazy8    | Administration   |    ♾     | thecrazy8@wdbypass.publicvm.com                                               |
+| Quagmire0001 | Administration   |    ♾     | quagmire0001@wdbypass.publicvm.com                                            |
 | Slime        | Concept Artist     |    🟩     | Contact not permitted due to preferred anonymity (known by TheCrazy8 in person) |
 | BestRat8228  | No role            |    ✅     | bestrat8228@wdbypass.publicvm.com                                             |
 | TheLobo9002  | No role            |    ✅     | thelobo9002@wdbypass.publicvm.com                                             |
