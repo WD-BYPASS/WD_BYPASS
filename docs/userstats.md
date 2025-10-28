@@ -51,7 +51,8 @@ This page lists all users, their roles, and current access standings.
 
 | Name           | Context                                                | Standings |
 | -------------- | ------------------------------------------------------ | :-------: |
-| Thomas Locke  | Mac user, pending until macOS products created        |    ⭕      |
+| Samuel Locke  | Linux user, pending until linux products created       |    ⭕      |
+| Thomas Locke  | Mac user, pending until macOS products created         |    ⭕      |
 | Emilio Davis   | Would have no use for products                        |    ⭕      |
 | Spencer Von Decker | Would have no use for products                    |    ⭕      |   
 
