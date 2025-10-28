@@ -31,6 +31,7 @@ This page lists all users, their roles, and current access standings.
 | 🌐     | Custom email                         |
 | ❇     | Original user                        |
 | 🛡     | Moderation team                      |
+| 🎃     | Halloween event participant (discord) |
 
 ## Current
 
