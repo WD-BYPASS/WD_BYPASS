@@ -30,6 +30,7 @@ This page lists all users, their roles, and current access standings.
 | :----: | ------------------------------------ | --------------------------------------- |
 | 🌐     | Custom email                         | Have a custom dev email                 |
 | ❇     | Original user                        | Be ~~one of~~ the first users!          |
+| 💾     | Beta tester                          | Test private beta builds                |
 | 🛡     | Moderation team                      | Reserved for moderators                 |
 | 🎃     | Halloween event participant          | Trick or treat in the discord           |
 | 🔓     | Major product/feature contributor    | Contribute a major feature              |
@@ -46,10 +47,10 @@ This page lists all users, their roles, and current access standings.
 
 | Name         | Role               | Standings | Badges | Email | Notes |
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
-| TheCrazy8    | Administration   |    ♾     | 🌐, ❇, 🛡 | thecrazy8@wdbypass.publicvm.com              |   Founder            |
+| TheCrazy8    | Administration   |    ♾     | 🌐, ❇, 🛡, 💾 | thecrazy8@wdbypass.publicvm.com              |   Founder            |
 | Quagmire0001 | Administration   |    ♾     | 🌐, ❇, 🛡 | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
-| BestRat8228  | Developer        |    ✅     | 🌐, ❇ | bestrat8228@wdbypass.publicvm.com          |   N/A                |
-| TheLobo9002  | Developer        |    ✅     | 🌐, ❇ | thelobo9002@wdbypass.publicvm.com          |   N/A                |
+| BestRat8228  | Developer        |    ✅     | 🌐, ❇, 💾 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
+| TheLobo9002  | Developer        |    ✅     | 🌐, ❇, 💾 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
 ## Inactive Employees
 
