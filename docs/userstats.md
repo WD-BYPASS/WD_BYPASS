@@ -24,6 +24,13 @@ This page lists all users, their roles, and current access standings.
 | 🔼      | Higher level access                  |
 | ♾      | Admin level access                   |
 
+## Badgedex
+
+| Badge | Meaning                              |
+| :----: | ------------------------------------ |
+| 🌐     | Custom email                         |
+| ❇     | Original user                        |
+
 ## Current
 
 | Name         | Role               | Standings | Badges | Email | Notes |
