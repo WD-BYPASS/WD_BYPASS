@@ -31,9 +31,11 @@ This page lists all users, their roles, and current access standings.
 | 🌐     | Custom email                         |
 | ❇     | Original user                        |
 | 🛡     | Moderation team                      |
-| 🎃     | Halloween event participant (discord) |
+| 🎃     | Halloween event participant          |
+| 🔓     | Major product/feature contributor    |
+| 👾     | Major bugfixer                       |
 
-## Current
+## Current Employees
 
 | Name         | Role               | Standings | Badges | Email | Notes |
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
@@ -42,7 +44,7 @@ This page lists all users, their roles, and current access standings.
 | BestRat8228  | No role            |    ✅     | 🌐 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
 | TheLobo9002  | No role            |    ✅     | 🌐 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
-## Inactive
+## Inactive Employees
 
 | Name       | Role   | Standings | Notes                      |
 | ---------- | ------ | :-------: | -------------------------- |
@@ -50,13 +52,13 @@ This page lists all users, their roles, and current access standings.
 | Jush7111   | No role|    ☑      | Inactive verified, access  |
 | Slime        | Concept Artist     |    🔲     | No contributions or interactions, has been labeled inactive |
 
-## Past
+## Past Employees
 
 | Name                | Reason | Standings | Notes        |
 | ------------------- | --------------- | :-------: | ------------ |
 | dungeonmstr08_21768 | Dropped out     |    ⚠️     | N/A    |
 
-## Pending
+## Pending Employees
 
 | Name           | Context                                                | Standings |
 | -------------- | ------------------------------------------------------ | :-------: |
@@ -65,7 +67,7 @@ This page lists all users, their roles, and current access standings.
 | Emilio Davis   | Would have no use for products                        |    ⭕      |
 | Spencer Von Decker | Would have no use for products                    |    ⭕      |   
 
-## Blacklisted
+## Blacklisted Employees
 
 | Name             | Reason                               | Standings |
 | ---------------- | ------------------------------------ | :-------: |
@@ -74,3 +76,10 @@ This page lists all users, their roles, and current access standings.
 | Ian Di'Gonzaga   | AVOID AT ALL COSTS                   |    ✖      |
 | Landon           | Not enough info; made too much inquiry|    ✖      |
 | Wesley Burkholder| Extreme liability                    |    ✖      |
+
+## General User Accounts
+
+| Username    | Badges | GitHub Account Link |
+| ----------- | :----: | ------------------- |
+| Example     | N/A    | example github link |
+
