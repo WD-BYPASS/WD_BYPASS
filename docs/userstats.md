@@ -26,12 +26,12 @@ This page lists all users, their roles, and current access standings.
 
 ## Current
 
-| Name         | Role               | Standings | Email | Notes |
-| ------------ | ------------------ | :------: | ------------------------------------------- | -------------------- |
-| TheCrazy8    | Administration   |    ♾     | thecrazy8@wdbypass.publicvm.com              |   Founder            |
-| Quagmire0001 | Administration   |    ♾     | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
-| BestRat8228  | No role            |    ✅     | bestrat8228@wdbypass.publicvm.com          |   N/A                |
-| TheLobo9002  | No role            |    ✅     | thelobo9002@wdbypass.publicvm.com          |   N/A                |
+| Name         | Role               | Standings | Badges | Email | Notes |
+| ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
+| TheCrazy8    | Administration   |    ♾     | 🌐, ❇ | thecrazy8@wdbypass.publicvm.com              |   Founder            |
+| Quagmire0001 | Administration   |    ♾     | 🌐, ❇ | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
+| BestRat8228  | No role            |    ✅     | 🌐 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
+| TheLobo9002  | No role            |    ✅     | 🌐 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
 ## Inactive
 
