@@ -43,7 +43,7 @@ This page lists all users, their roles, and current access standings.
 
 ## Past
 
-| Name                | Previous Status | Standings | Notes        |
+| Name                | Reason Why | Standings | Notes        |
 | ------------------- | --------------- | :-------: | ------------ |
 | dungeonmstr08_21768 | Dropped out     |    ⚠️     | No access    |
 
