@@ -51,7 +51,7 @@ This page lists all users, their roles, and current access standings.
 
 | Name           | Context                                                | Standings |
 | -------------- | ------------------------------------------------------ | :-------: |
-| Thommas Locke  | Mac user, pending until macOS patch found/created     |    ⭕      |
+| Thommas Locke  | Mac user, pending until macOS products created        |    ⭕      |
 | Emilio Davis   | Would have no use for products                        |    ⭕      |
 | Spencer Von Decker | Would have no use for products                    |    ⭕      |   
 
