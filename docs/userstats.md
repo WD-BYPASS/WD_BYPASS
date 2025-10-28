@@ -26,14 +26,15 @@ This page lists all users, their roles, and current access standings.
 
 ## Badgedex
 
-| Badge | Meaning                              |
-| :----: | ------------------------------------ |
-| 🌐     | Custom email                         |
-| ❇     | Original user                        |
-| 🛡     | Moderation team                      |
-| 🎃     | Halloween event participant          |
-| 🔓     | Major product/feature contributor    |
-| 👾     | Major bugfixer                       |
+| Badge | Meaning                               | Conditions                             |
+| :----: | ------------------------------------ | -------------------------------------- |
+| 🌐     | Custom email                         | Have a custom dev email                |
+| ❇     | Original user                        | Be one of the first!                   |
+| 🛡     | Moderation team                      | Reserved for moderators                |
+| 🎃     | Halloween event participant          | Trick or treat in the discord          |
+| 🔓     | Major product/feature contributor    | Contribute a major feature             |
+| 👾     | Major bugfixer                       | Fix a bug that plagues us devs         |
+| 🐛     | Bug hunter                           | Find a bunch of issues and report them |
 
 ## Current Employees
 
