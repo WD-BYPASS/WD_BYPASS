@@ -51,6 +51,9 @@ This page lists all users, their roles, and current access standings.
 
 | Badge | Meaning                               | Conditions                                     |
 | :----: | ------------------------------------ | ---------------------------------------------- |
+| 🍓     | Beta Team                            | Member of the Beta Team                        |
+| 🫐     | Delta Team                           | Member of the Delta Team                       |
+| 🍎     | Alpha Team                           | Former Alpha Team member
 | 🌐     | Custom email                         | Have a custom dev email                        |
 | ❇     | Original user                        | Be ~~one of~~ the first users!                 |
 | 💾     | Beta tester                          | Test private beta builds                       |
@@ -85,8 +88,8 @@ This page lists all users, their roles, and current access standings.
 
 | Name         | Role               | Standings | Badges | Email | Notes |
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
-| TheCrazy8    | Administration/CEO |    ♾     | 🌐, ❇, 🛡, 💾 | thecrazy8@wdbypass.publicvm.com              |   Founder            |
-| Quagmire0001 | Administration/Delta Team |    ♾     | 🌐, ❇, 🛡, 💾 | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
+| TheCrazy8    | Administration/CEO |    ♾     | 🌐, ❇, 🛡, 💾, 🍓, 🍎, 🎱 | thecrazy8@wdbypass.publicvm.com              |   Founder            |
+| Quagmire0001 | Administration |    ♾     | 🌐, ❇, 🛡, 💾, 🍓, 🫐, 🍎 | quagmire0001@wdbypass.publicvm.com           |   Alpha Team         |
 | BestRat8228  | Developer        |    ✅     | 🌐, ❇, 💾, 🚿 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
 | TheLobo9002  | Developer        |    ✅     | 🌐, ❇, 💾 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
