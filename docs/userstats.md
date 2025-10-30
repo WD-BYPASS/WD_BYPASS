@@ -21,23 +21,23 @@ This page lists all users, their roles, and current access standings.
 
 ### Standings Symbols:
 
-| Symbol | Meaning                              |
-| :----: | ------------------------------------ |
-| 🔥     | Banned from use                      |
-| ✖     | Blacklisted from application         |
-| ❌     | Relationship terminated              |
-| 🚫     | Hasn't yet applied                   |
-| ⭕     | Applied, application pending         |
-| 🌀     | Application accepted, yet to respond |
-| ⚠️     | Formerly verified, no access         |
-| ☢     | Formerly verified, retains access    |
-| 🔲     | Inactive verified, no access         |
-| 🟩     | Verified, no access                  |
-| ❎     | Access temporarily revoked           |
-| ☑     | Inactive verified, access            |
-| ✅     | Verified, access                     |
-| 🔼     | Higher level access                  |
-| ♾     | Admin level access                   |
+| Symbol | Meaning                                  |
+| :----: | ---------------------------------------- |
+| 🔥     | Banned from use                          |
+| ✖     | Blacklisted from application             |
+| ❌     | Relationship terminated                  |
+| 🚫     | Hasn't yet applied                       |
+| ⭕     | Applied, application pending             |
+| 🌀     | Application accepted, yet to respond     |
+| ⚠️     | Formerly verified, no access             |
+| ☢     | Formerly verified, retains access        | 
+| 🔲     | Inactive verified, no access             |
+| 🟩     | Verified, no access                      |
+| ❎     | Prohibition (Access temporarily revoked) |
+| ☑     | Inactive verified, access                |
+| ✅     | Verified, access                         |
+| 🔼     | Higher level access                      |
+| ♾     | Admin level access                       |
 
 ### Badgedex:
 
@@ -85,9 +85,9 @@ This page lists all users, their roles, and current access standings.
 ### Inactive Employees:
 
 | Name       | Role   | Standings | Notes                      |
-| ---------- | ------ | :-------: | -------------------------- |
-| Volpirix66 | No role|    ☑      | Inactive verified, access  |
-| Jush7111   | No role|    ☑      | Inactive verified, access  |
+| ---------- | ------ | :-------: | ------------------------------------ |
+| Volpirix66 | No role|    ☑      | Has not provided GitHub information |
+| Jush7111   | No role|    ☑      | Has not provided GitHub information |
 | Slime      | Concept Artist |    🔲     | No contributions or interactions, has been labeled inactive |
 
 ### Past Employees:
