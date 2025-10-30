@@ -129,7 +129,7 @@ This page lists all users, their roles, and current access standings.
 | ---------------- | ------------------------------------ | :-------: |
 | Erich Sams       | Untrustworthy                        |    ✖     |
 | Stewart Wang     | Untrustworthy                        |    ✖     |
-| Ian Di'Gonzaga   | AVOID AT ALL COSTS                   |    ✖     |
+| Ian Di'Gonzaga   | AVOID AT ALL COSTS                   |    ➗     |
 | Wesley Burkholder| Extreme liability                    |    ✖     |
 | Cooper Moore     | Security liability                   |    ✖     |
 
