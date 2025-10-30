@@ -8,7 +8,7 @@ This page lists all users, their roles, and current access standings.
 
 [[TOC]]
 
-## Key
+## Key:
 
 ### Keywords:
 
@@ -39,7 +39,7 @@ This page lists all users, their roles, and current access standings.
 | 🔼     | Higher level access                  |
 | ♾     | Admin level access                   |
 
-### Badgedex
+### Badgedex:
 
 | Badge | Meaning                               | Conditions                                     |
 | :----: | ------------------------------------ | ---------------------------------------------- |
@@ -73,7 +73,7 @@ This page lists all users, their roles, and current access standings.
 
 ## Userstats:
 
-### Active Employees
+### Active Employees:
 
 | Name         | Role               | Standings | Badges | Email | Notes |
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
@@ -82,7 +82,7 @@ This page lists all users, their roles, and current access standings.
 | BestRat8228  | Developer        |    ✅     | 🌐, ❇, 💾, 🚿 | bestrat8228@wdbypass.publicvm.com          |   N/A                |
 | TheLobo9002  | Developer        |    ✅     | 🌐, ❇, 💾 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
-### Inactive Employees
+### Inactive Employees:
 
 | Name       | Role   | Standings | Notes                      |
 | ---------- | ------ | :-------: | -------------------------- |
@@ -90,19 +90,19 @@ This page lists all users, their roles, and current access standings.
 | Jush7111   | No role|    ☑      | Inactive verified, access  |
 | Slime      | Concept Artist |    🔲     | No contributions or interactions, has been labeled inactive |
 
-### Past Employees
+### Past Employees:
 
 | Name                | Reason | Standings | Notes        |
 | ------------------- | --------------- | :-------: | ------------ |
 | dungeonmstr08_21768 | Dropped out     |    ⚠️     | N/A    |
 
-### Pending Applicant
+### Pending Applicant:
 
 | Name                | Notes      |
 | ------------------- | ---------- |
 | N/A                 | N/A        |
 
-### Eligible for Application For Employment
+### Eligible for Application For Employment:
 
 | Name           | Context                                                | Standings |
 | -------------- | ------------------------------------------------------ | :-------: |
@@ -112,7 +112,7 @@ This page lists all users, their roles, and current access standings.
 | Spencer Von Decker | Would have no use for products                    |    🚫      |
 | Nathan Leathers | Would have no use for products                       |    🚫      |
 
-### Blacklisted From Possible Employment
+### Blacklisted From Possible Employment:
 
 | Name             | Reason                               | Standings |
 | ---------------- | ------------------------------------ | :-------: |
@@ -123,7 +123,7 @@ This page lists all users, their roles, and current access standings.
 | Wesley Burkholder| Extreme liability                    |    ✖      |
 | Cooper Moore     | Security liability                   |    ✖      |
 
-### General User Accounts
+### General User Accounts:
 
 | Username    | Badges | GitHub Account Link |
 | ----------- | :----: | ------------------- |
