@@ -6,6 +6,10 @@ title: Info
 
 # Info
 
+## Our Mission
+
+Our mission is to deliver high quality software for free, with potential payed services and APIs for developers.  As a nonprofit, we believe in donating money not needed by the company for costs that products may incur to charities.
+
 ## Omnipotence, Crucifix, and the WD_Bypass patch ecosystem
 
 ### Omnipotence
