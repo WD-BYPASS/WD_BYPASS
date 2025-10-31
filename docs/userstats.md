@@ -94,7 +94,7 @@ This page lists all users, their roles, and current access standings.
 | ------------ | ------------------ | :------: | :------: | ------------------------------------------- | -------------------- |
 | TheCrazy8    | Administration/CEO |    ♾     | 🌐, ❇, 🛡, 💾, 🍓, 🍎, 🎱 | thecrazy8@wdbypass.publicvm.com |   Founder   |
 | Quagmire0001 | Administration |    ♾     | 🌐, ❇, 🛡, 💾, 🍓, 🫐, 🍎 | quagmire0001@wdbypass.publicvm.com           |  N/A |
-| BestRat8228  | Developer        |    ✅     | 🌐, ❇, 💾, 🚿 | bestrat8228@wdbypass.publicvm.com          |   N/A            |
+| BestRat8228  | Developer        |    ❎     | 🌐, ❇, 💾, 🚿 | bestrat8228@wdbypass.publicvm.com          |   N/A            |
 | TheLobo9002  | Developer        |    ✅     | 🌐, ❇, 💾 | thelobo9002@wdbypass.publicvm.com          |   N/A                |
 
 ### Inactive Employees:
