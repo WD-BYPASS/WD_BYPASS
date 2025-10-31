@@ -23,6 +23,8 @@ This page lists all users, their roles, and current access standings.
 - **Omega Team:** Team of employees who create posts on official WD_Bypass socials, interact with the public, and are used in trailer videos.
 - **Gamma Team:** Team of employees who can take the place of anybody if they need a break/no longer associate for whatever reason.
 - **Echo Team:** The WD_Bypass Legal Team.
+- **Aria Team:** The team that works on art, music, and other creative productions.
+- **M.O.S.S.** The game development group owned by WD_Bypass.
 - **Employee:** As WD_Bypass does not officialy hire people, and does not make money off of products, this term is used in place of unpaid employee.  No money is made off of WD_Bypass products, and nobody associated with WD_Bypass uses it to gain profit. You can apply [here](https://docs.google.com/forms/d/e/1FAIpQLSfwWFC3ddg01TolzNDJIavyob24AsxQDWwlzrZmbBT04yyVdQ/viewform?usp=header)
 
 ### Standings Symbols:
