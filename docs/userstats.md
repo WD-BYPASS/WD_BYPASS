@@ -67,7 +67,7 @@ This page lists all users, their roles, and current access standings.
 | 👾     | Major bugfixer                       | Fix a bug that plagues us devs                 | 
 | 🐛     | Bug hunter                           | Find a bunch of issues and report them         |
 | ⚡     | Optimizer                            | Fix our slow code                              |
-| ℹ️     | Communiity guide                     | Tell people how stuff works a bunch            |
+| ℹ️     | Community guide                     | Tell people how stuff works a bunch            |
 | 🎁     | Donater                              | Donate to the devs or boost the discord        |
 | 🍪     | Cookie                               | A dev decided to give you a cookie             |
 | 💣     | Bomb                                 | Uh oh- throw this to someone else!             |
