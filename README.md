@@ -5,6 +5,36 @@ It is against your best interests to try to bypass security, as that is very unk
 
 In order to decrypt the file, use the decryption keys on the back of your card, (if you are a verified member) and decrypt the files at https://www.devglan.com/online-tools/aes-encryption-decryption.   **ONLY VERIFIED MEMBERS HAVE ACCESS TO THE DECRYPTION KEY, AND YOU ARE NOT TO ASK ANYONE FOR ACCESS IF YOU AREN'T VERIFIED.**
 
+## Account System
+
+This repository now includes a secure account system with OAuth integration:
+
+- **GitHub Login**: Sign in with your GitHub account
+- **Google Login**: Sign in with your Google account  
+- **Account Linking**: Link multiple OAuth providers to one account
+- **Secure Sessions**: HTTP-only cookies, CSRF protection, rate limiting
+
+### Quick Start
+
+See [QUICK_START.md](QUICK_START.md) for a 5-minute setup guide.
+
+For detailed documentation, see [ACCOUNT_SYSTEM_README.md](ACCOUNT_SYSTEM_README.md).
+
+### Running the Account System
+
+```bash
+# Install dependencies
+npm install
+
+# Start backend server (Terminal 1)
+npm run server
+
+# Start frontend (Terminal 2)
+npm run dev
+```
+
+Then visit http://localhost:5173/login to sign in!
+
 
 ## NDA:
 *1:* I will not share any information about the WD_PATCH ecosystem, or any related information
