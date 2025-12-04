@@ -1,5 +1,6 @@
 const express = require('express');
 const passport = require('../config/passport');
+const { ensureAuthenticated } = require('../middleware/auth');
 
 const router = express.Router();
 
@@ -25,7 +26,8 @@ router.get('/link/github/callback',
   ensureAuthenticated,
   passport.authenticate('github', { failureRedirect: '/account?error=github_link_failed' }),
   (req, res) => {
-    res.redirect(process.env.FRONTEND_URL + '/account?success=github_linked' || 'http://localhost:5173/account?success=github_linked');
+    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    res.redirect(frontendUrl + '/account?success=github_linked');
   }
 );
 
@@ -51,7 +53,8 @@ router.get('/link/google/callback',
   ensureAuthenticated,
   passport.authenticate('google', { failureRedirect: '/account?error=google_link_failed' }),
   (req, res) => {
-    res.redirect(process.env.FRONTEND_URL + '/account?success=google_linked' || 'http://localhost:5173/account?success=google_linked');
+    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    res.redirect(frontendUrl + '/account?success=google_linked');
   }
 );
 
@@ -64,13 +67,5 @@ router.get('/logout', (req, res) => {
     res.redirect(process.env.FRONTEND_URL || 'http://localhost:5173');
   });
 });
-
-// Middleware to ensure user is authenticated
-function ensureAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    return next();
-  }
-  res.redirect('/login');
-}
 
 module.exports = router;

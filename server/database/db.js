@@ -138,8 +138,16 @@ function findOrCreateUserFromProvider(provider, providerData) {
     return getUserById(linkedAccount.user_id);
   }
   
-  // Create new user
-  const username = providerData.username || providerData.email?.split('@')[0] || `${provider}_${providerData.id}`;
+  // Create new user with unique username
+  let username = providerData.username || providerData.email?.split('@')[0] || `${provider}_${providerData.id}`;
+  let suffix = 0;
+  
+  // Ensure username is unique
+  while (getUserByUsername(username)) {
+    suffix++;
+    username = `${providerData.username || providerData.email?.split('@')[0] || provider}_${suffix}`;
+  }
+  
   const displayName = providerData.displayName || providerData.username || username;
   
   const userId = createUser(username, providerData.email, displayName);

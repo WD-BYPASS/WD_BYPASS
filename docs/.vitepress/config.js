@@ -2,6 +2,32 @@ export default {
     title: "WD_Bypass Website",
     description: "The website for WD_Bypass.",
     base: "/WD_BYPASS/",
+    vite: {
+        server: {
+            proxy: {
+                '/auth': {
+                    target: 'http://localhost:3000',
+                    changeOrigin: true
+                },
+                '/api': {
+                    target: 'http://localhost:3000',
+                    changeOrigin: true
+                },
+                '/account': {
+                    target: 'http://localhost:3000',
+                    changeOrigin: true,
+                    configure: (proxy, options) => {
+                        // Only proxy /account routes that are API calls, not the page
+                        proxy.on('proxyReq', (proxyReq, req, res) => {
+                            if (req.method !== 'GET' || req.headers.accept?.includes('application/json')) {
+                                return;
+                            }
+                        });
+                    }
+                }
+            }
+        }
+    },
     themeConfig: {
         siteTitle: "WD_Bypass Website",
         footer: {

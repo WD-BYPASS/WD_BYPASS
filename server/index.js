@@ -2,6 +2,9 @@ const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
 const cors = require('cors');
+const cookieParser = require('cookie-parser');
+const rateLimit = require('express-rate-limit');
+const { doubleCsrf } = require('csrf-csrf');
 const path = require('path');
 require('dotenv').config();
 
@@ -15,6 +18,23 @@ const PORT = process.env.PORT || 3000;
 // Initialize database
 db.init();
 
+// Rate limiting configuration
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: 'Too many requests from this IP, please try again later.'
+});
+
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 5, // Limit each IP to 5 login attempts per windowMs
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: 'Too many authentication attempts, please try again later.'
+});
+
 // Middleware
 app.use(cors({
   origin: process.env.FRONTEND_URL || 'http://localhost:5173',
@@ -22,6 +42,24 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
+
+// Apply general rate limiting
+app.use(limiter);
+
+// CSRF protection setup
+const { generateToken, doubleCsrfProtection } = doubleCsrf({
+  getSecret: () => process.env.SESSION_SECRET || 'wd-bypass-secret-key-change-in-production',
+  cookieName: '__Host-csrf.token',
+  cookieOptions: {
+    sameSite: 'strict',
+    path: '/',
+    secure: process.env.NODE_ENV === 'production',
+    httpOnly: true
+  },
+  size: 64,
+  ignoredMethods: ['GET', 'HEAD', 'OPTIONS']
+});
 
 // Session configuration
 app.use(session({
@@ -49,9 +87,15 @@ passport.deserializeUser((id, done) => {
   done(null, user);
 });
 
-// Routes
-app.use('/auth', authRoutes);
-app.use('/account', accountRoutes);
+// CSRF token endpoint (for clients that need it)
+app.get('/api/csrf-token', (req, res) => {
+  const token = generateToken(req, res);
+  res.json({ token });
+});
+
+// Routes with rate limiting
+app.use('/auth', authLimiter, authRoutes);
+app.use('/account', doubleCsrfProtection, accountRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {

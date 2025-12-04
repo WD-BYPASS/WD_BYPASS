@@ -9,10 +9,10 @@ To use the WD_BYPASS account system, please login with one of the following prov
 
 <div style="max-width: 500px; margin: 50px auto; padding: 40px; background: var(--vp-c-bg-soft); border-radius: 12px;">
   <div style="display: flex; flex-direction: column; gap: 15px;">
-    <a href="http://localhost:3000/auth/github" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 14px 24px; background: #24292e; color: white; border-radius: 8px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
+    <a href="/auth/github" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 14px 24px; background: #24292e; color: white; border-radius: 8px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
       Login with GitHub
     </a>
-    <a href="http://localhost:3000/auth/google" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 14px 24px; background: #4285f4; color: white; border-radius: 8px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
+    <a href="/auth/google" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 14px 24px; background: #4285f4; color: white; border-radius: 8px; text-decoration: none; font-weight: 500; transition: all 0.3s;">
       Login with Google
     </a>
   </div>
@@ -20,6 +20,8 @@ To use the WD_BYPASS account system, please login with one of the following prov
     By logging in, you agree to our Terms of Service and NDA.
   </div>
 </div>
+
+**Note**: These links will work when you have the backend server running. See the setup instructions below.
 
 ## Account Features
 

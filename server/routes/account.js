@@ -1,15 +1,8 @@
 const express = require('express');
 const db = require('../database/db');
+const { ensureAuthenticated } = require('../middleware/auth');
 
 const router = express.Router();
-
-// Middleware to ensure user is authenticated
-function ensureAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    return next();
-  }
-  res.status(401).json({ error: 'Not authenticated' });
-}
 
 // Get account information
 router.get('/', ensureAuthenticated, (req, res) => {
