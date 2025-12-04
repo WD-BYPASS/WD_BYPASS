@@ -139,13 +139,14 @@ function findOrCreateUserFromProvider(provider, providerData) {
   }
   
   // Create new user with unique username
-  let username = providerData.username || providerData.email?.split('@')[0] || `${provider}_${providerData.id}`;
+  const baseUsername = providerData.username || providerData.email?.split('@')[0] || `${provider}_user`;
+  let username = baseUsername;
   let suffix = 0;
   
   // Ensure username is unique
   while (getUserByUsername(username)) {
     suffix++;
-    username = `${providerData.username || providerData.email?.split('@')[0] || provider}_${suffix}`;
+    username = `${baseUsername}_${suffix}`;
   }
   
   const displayName = providerData.displayName || providerData.username || username;

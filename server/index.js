@@ -48,9 +48,13 @@ app.use(cookieParser());
 app.use(limiter);
 
 // CSRF protection setup
+const csrfCookieName = process.env.NODE_ENV === 'production' 
+  ? '__Host-csrf.token' 
+  : 'csrf.token';
+
 const { generateToken, doubleCsrfProtection } = doubleCsrf({
   getSecret: () => process.env.SESSION_SECRET || 'wd-bypass-secret-key-change-in-production',
-  cookieName: '__Host-csrf.token',
+  cookieName: csrfCookieName,
   cookieOptions: {
     sameSite: 'strict',
     path: '/',

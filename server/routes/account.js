@@ -19,8 +19,25 @@ router.put('/', ensureAuthenticated, (req, res) => {
     const { email, display_name } = req.body;
     const updates = {};
     
-    if (email !== undefined) updates.email = email;
-    if (display_name !== undefined) updates.display_name = display_name;
+    // Validate email format if provided
+    if (email !== undefined) {
+      if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        return res.status(400).json({ error: 'Invalid email format' });
+      }
+      updates.email = email;
+    }
+    
+    // Validate display name if provided
+    if (display_name !== undefined) {
+      if (display_name && (display_name.length < 1 || display_name.length > 100)) {
+        return res.status(400).json({ error: 'Display name must be between 1 and 100 characters' });
+      }
+      // Sanitize display name (remove potentially dangerous characters)
+      if (display_name && /[<>\"']/.test(display_name)) {
+        return res.status(400).json({ error: 'Display name contains invalid characters' });
+      }
+      updates.display_name = display_name;
+    }
     
     db.updateUser(req.user.id, updates);
     
