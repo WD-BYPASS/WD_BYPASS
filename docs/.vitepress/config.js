@@ -14,7 +14,9 @@ export default {
             { text: 'Info', link: '/info' },
             { text: 'Rules', link: '/rules' },
             { text: 'Userstats', link: '/userstats' },
-            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
+            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'},
+            { text: 'Login', link: '/login' },
+            { text: 'Account', link: '/account' }
         ],
         sidebar: {
             text: 'Pages',
@@ -24,7 +26,9 @@ export default {
             { text: 'Info', link: '/info' },
             { text: 'Rules', link: '/rules' },
             { text: 'Userstats', link: '/userstats'},
-            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
+            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'},
+            { text: 'Login', link: '/login' },
+            { text: 'Account', link: '/account' }
             ]
         },
 
