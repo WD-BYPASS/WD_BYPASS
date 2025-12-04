@@ -2,6 +2,20 @@ export default {
     title: "WD_Bypass Website",
     description: "The website for WD_Bypass.",
     base: "/WD_BYPASS/",
+    vite: {
+        server: {
+            proxy: {
+                '/auth': {
+                    target: 'http://localhost:3000',
+                    changeOrigin: true
+                },
+                '/api': {
+                    target: 'http://localhost:3000',
+                    changeOrigin: true
+                }
+            }
+        }
+    },
     themeConfig: {
         siteTitle: "WD_Bypass Website",
         footer: {
@@ -14,7 +28,9 @@ export default {
             { text: 'Info', link: '/info' },
             { text: 'Rules', link: '/rules' },
             { text: 'Userstats', link: '/userstats' },
-            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
+            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'},
+            { text: 'Login', link: '/login' },
+            { text: 'Account', link: '/account' }
         ],
         sidebar: {
             text: 'Pages',
@@ -24,7 +40,9 @@ export default {
             { text: 'Info', link: '/info' },
             { text: 'Rules', link: '/rules' },
             { text: 'Userstats', link: '/userstats'},
-            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'}
+            { text: 'KCSgate Combat Data', link: '/kcsgatecombatdata'},
+            { text: 'Login', link: '/login' },
+            { text: 'Account', link: '/account' }
             ]
         },
 
